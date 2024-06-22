@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "tsx index.ts",
+    "postinstall": "tsx index.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.10.2"
+  }
+}
