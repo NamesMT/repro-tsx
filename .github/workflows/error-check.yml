@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup pnpm
-        uses: pnpm/action-setup@v3
+        uses: pnpm/action-setup@v4
         with:
           version: 9
 
@@ -27,6 +27,9 @@ jobs:
         with:
           node-version: '20'
           cache: pnpm
+
+      - name: Show some system info
+        run: pnpm -v && node -v
 
       - name: Install dependencies
         run: pnpm i
