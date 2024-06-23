@@ -29,7 +29,7 @@ jobs:
           cache: pnpm
 
       - name: Show some system info
-        run: pnpm -v && node -v
+        run: pnpm -v && node -v && printenv
 
       - name: Install dependencies
         run: pnpm i
