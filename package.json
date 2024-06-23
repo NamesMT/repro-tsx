@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "tsx index.ts",
-    "postinstall": "tsx index.ts"
+    "postinstall": "tsx index.ts",
+    "check": "sh scripts/check-for-tsx-0.sh"
   },
   "devDependencies": {
     "tsx": "^4.10.2"
