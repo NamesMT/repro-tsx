@@ -33,3 +33,6 @@ jobs:
 
       - name: Run check command to check for `tsx-0`
         run: pnpm run check
+
+      - name: Also run `ls` just to make sure
+        run: ls
